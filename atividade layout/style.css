@@ -1,0 +1,147 @@
+.container-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+
+    /* ALINHAMENTO VERTICAL */
+
+    /* default (esticado) */
+    /* align-items: stretch; */
+
+    /* inicio - posicionado no canto superior esquerdo */
+    /* align-items: flex-start; */
+
+    /* fim - posicionado no canto inferior esquerdo */
+    /* align-items: flex-end; */
+
+    /* centro - posicionado no centro esquerdo */
+    /* align-items: center; */
+
+    /* ALINHAMENTO HORIZONTAL */
+
+    /* justify-content: flex-start; */
+
+    /* justify-content: flex-end; */
+
+    /* justify-content: space-around; */
+
+    /* justify-content: space-between; */
+
+    /* justify-content: space-evenly; */
+
+    /* justify-content: center; */
+    
+    /* distribui os elementos de maneira responsiva */
+    /* flex-wrap: wrap; */
+}
+
+.c2 {
+    justify-content: center;
+}
+
+.c3 {
+    justify-content: flex-end;
+}
+
+.c4 {
+    justify-content: space-around;
+}
+
+.container-box > div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    justify-items: center;
+    justify-content: center;
+}
+
+/* Herança de pai e filho */
+
+/* .container > div:nth-child(1) {
+    background-color: aquamarine;
+}
+
+.container > div:nth-child(2) {
+    background-color: blueviolet;
+}
+
+.container > div:nth-child(3) {
+    background-color: coral;
+} */
+
+
+/* Sub Classes */
+
+.box1 {
+    background-color: aquamarine;   
+}
+
+.box2 {
+    background-color: blueviolet;
+}
+
+.box3 {
+    background-color: coral;
+}
+
+.box4 {
+    background-color: blue;
+}
+
+.box5 {
+    background-color: red;
+}
+
+.box6 {
+    background-color: green;
+}
+
+.box7 {
+    background-color: yellow;
+}
+
+.box8 {
+    background-color: purple;
+}
+
+.box9 {
+    background-color: pink;
+}
+
+.box10 {
+    background-color: gray;
+}
+
+.box11 {
+    background-color: black;
+}
+
+.box12 {
+    background-color: deeppink;
+}
+
+/* .inicio 
+     margin-right: auto; 
+}
+
+.pesquisar {
+     margin-left: auto; 
+}
+
+.sair {
+    
+} */
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 10px
+}
